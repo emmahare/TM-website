@@ -4,20 +4,37 @@
         <meta charset="UTF-8">
         <title>Transport & Montage Expert</title>
         <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,
+        500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,
+        800italic,900italic" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <nav class="topnavbar">
-        <logo>Logo</logo>
-        <ul>
-            <a href="index.html">Home</a>
-            <a href="htmlpages/transport.html">Transport</a>
-            <a href="htmlpages/montage.html">Montage</a>
-            <a href="htmlpages/überuns.html">Über uns</a>
-            <a href="#bottomnavbar">Kontakt</a>
-        </ul>
-        </nav>
-        <img class= "bigImg" src="images/istockphoto-1147544807-612x612.jpg">
+        <header>
+            <div id="brand"><a href="/">Home</a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="htmlpages/transport.html">Transport</a></li>
+                    <li><a href="htmlpages/montage.html">Montage</a></li>
+                    <li><a href="htmlpages/überuns.html">Über uns</a></li>
+                    <li><a href="#bottomnavbar">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div id="burger-nav" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="htmlpages/transport.html">Transport</a></li>
+                    <li><a href="htmlpages/montage.html">Montage</a></li>
+                    <li><a href="htmlpages/überuns.html">Über uns</a></li>
+                    <li><a href="#bottomnavbar">Kontakt</a></li>
+                </ul>
+            </div>
+        </header>
+        
         <div class="mainbody">
             <h1>Transport und Montage Expert</h1>
             <div class="transport">
@@ -25,9 +42,9 @@
                     <h3>Transport</h3>
                     <hr>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    sed diam nonumy eirmod tempor<br> invidunt ut labore et dolore magna aliquyam erat,
+                    sed diam voluptua. At vero eos et accusam et<br> justo duo dolores et ea rebum. 
+                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem<br> ipsum dolor sit amet.</p>
                     <button>Mehr Erfahren</button>
                 </div>
                 <img src="images/istockphoto-1147544807-612x612.jpg">
@@ -37,9 +54,9 @@
                     <h3>Montage</h3>
                     <hr >
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    sed diam nonumy eirmod tempor<br> invidunt ut labore et dolore magna aliquyam erat,
+                    sed diam voluptua. At vero eos et accusam et<br> justo duo dolores et ea rebum. 
+                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem<br> ipsum dolor sit amet.</p>
                     <button>Mehr Erfahren</button>
                 </div>
                 <img src="images/istockphoto-1147544807-612x612.jpg">
@@ -49,9 +66,9 @@
                     <h3>Über uns</h3>
                     <hr>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    sed diam nonumy eirmod tempor<br> invidunt ut labore et dolore magna aliquyam erat,
+                    sed diam voluptua. At vero eos et accusam et<br> justo duo dolores et ea rebum. 
+                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem<br> ipsum dolor sit amet.</p>
                     <button>Mehr Erfahren</button>
                 </div>
                 <img src="images/istockphoto-1147544807-612x612.jpg">
@@ -61,4 +78,8 @@
 
         </nav>
     </body>
+    
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="script.js"></script>
+
 </html>
